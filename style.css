@@ -1,0 +1,212 @@
+                        * {
+                            padding: 0;
+                            margin: 0
+                        }
+                        
+                        .menu {
+                            width: 400px;
+                            float: right;
+                            height: 70px;
+                        }
+                        
+                        ul {
+                            float: left;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        
+                        ul li {
+                            list-style: none;
+                            margin-left: 30px;
+                            margin-top: 27px;
+                            font-size: 17px;
+                        }
+                        
+                        ul li a {
+                            text-decoration: none;
+                            color: black;
+                            font-family: arial;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            transition: 0.4s ease-in-out;
+                        }
+                        
+                        ul li a:hover {
+                            color: #ff7200;
+                        }
+                        
+                        .content {
+                            width: 1500px;
+                            height: auto;
+                            margin: auto;
+                            color: black;
+                            position: relative;
+                        }
+                        
+                        .content .par {
+                            padding-left: 500px;
+                            padding-bottom: 25px;
+                            font-family: Arial;
+                            letter-spacing: 1.2px;
+                            line-height: 30px;
+                        }
+                        
+                        .content h1 {
+                            font-family: 'Times New Roman';
+                            font-size: 50px;
+                            padding-left: 20px;
+                            margin-top: 2%;
+                            letter-spacing: 2px;
+                            text-align: center;
+                        }
+                        
+                        .content span {
+                            color: #ff7200;
+                            font-size: 50px;
+                            font-family: 'Times New Roman';
+                        }
+                        
+                        .content h2 {
+                            font-family: ' Times New Roman';
+                            font-size: 20px;
+                            padding-left: 20px;
+                            margin-top: 2%;
+                            letter-spacing: 2px;
+                            text-align: center;
+                        }
+                        
+                        #hp {
+                            float: left;
+                            margin: 0 20px 0 0;
+                        }
+                        
+                        .contact-box {
+                            display: flex;
+                        }
+                        
+                        .contact-left {
+                            flex-basis: 60%;
+                            padding: 40px 60px;
+                            background-color: gray;
+                        }
+                        
+                        .contact-right {
+                            flex-basis: 40%;
+                            padding: 40px;
+                            background-color: #ff7200;
+                            color: black;
+                        }
+                        
+                        h3 {
+                            background-color: grey;
+                            margin-bottom: 10px;
+                            text-align: center;
+                            font-size: 2rem;
+                            text-decoration: underline;
+                        }
+                        
+                        h2 {
+                            background-color: #ff7200;
+                            margin-bottom: 10px;
+                            text-align: center;
+                            font-size: 2rem;
+                            text-decoration: underline;
+                        }
+                        
+                        .input-row {
+                            margin-top: 7%;
+                            justify-content: space-around;
+                            margin-bottom: 50px;
+                        }
+                        
+                        .input-row .input-group {
+                            margin-left: 20px;
+                            margin-top: 20px;
+                            flex-basis: 45%;
+                        }
+                        
+                        input {
+                            width: 100%;
+                            border: none;
+                            border-bottom: 1px solid black;
+                            outline: none;
+                            padding-bottom: 5px;
+                        }
+                        
+                        label {
+                            box-shadow: inset 8px 8px 8px rgb(163, 111, 76), inset -8px -8px 8px rgb(248, 179, 119);
+                            font-weight: bolder;
+                            margin-top: 10px;
+                            margin-bottom: 6px;
+                            display: block;
+                            color: black;
+                            font-size: 18px;
+                        }
+                        
+                        button {
+                            cursor: pointer;
+                            margin-left: 350px;
+                            margin-bottom: 30px;
+                            background: #1c00b5;
+                            width: 100px;
+                            border: none;
+                            outline: none;
+                            color: white;
+                            height: 35px;
+                            border-radius: 30px;
+                            margin-top: 20px;
+                            box-shadow: 0px 5px 15px 0px rgba(87, 62, 231, 0.3);
+                        }
+                        
+                        button:hover {
+                            background: #ff7200;
+                        }
+                        
+                        .contact-right p {
+                            line-height: 30px;
+                        }
+                        
+                        footer {
+                            box-sizing: border-box;
+                            background-color: #ff7200;
+                        }
+                        
+                        .footercontainer {
+                            background-color: rgb(3, 0, 9);
+                            color: #ff7200;
+                            width: 100%;
+                            padding: 70px 30px 20px;
+                        }
+                        
+                        .footercontainer p {
+                            font-family: 'Times New Roman';
+                            font-size: 1.2rem;
+                            text-align: center;
+                            letter-spacing: 1px;
+                        }
+                        
+                        .footernav {
+                            letter-spacing: 1px;
+                            text-align: center;
+                            margin: 30px 0;
+                            font-size: 1.2rem;
+                            margin-left: 15px;
+                        }
+                        
+                        .footernav a {
+                            color: #fff;
+                            margin: 20px;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                        }
+                        
+                        .footernav a:hover {
+                            opacity: 1;
+                            color: #ff7200;
+                        }
+                        
+                        .footerbottom p {
+                            text-align: center;
+                            color: #ff7200;
+                        }
